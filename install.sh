@@ -129,7 +129,7 @@ EASYRSA_LATEST=${EASYRSA_RELEASES[0]}
 wget -q https://github.com/OpenVPN/easy-rsa/releases/download/v3.0.4/EasyRSA-3.0.4.tgz
 tar -xaf EasyRSA-3.0.4.tgz
 mv EasyRSA-3.0.4.tgz /etc/openvpn/easy-rsa
-rm -r EasyRSA-3.0.4.tgz.tgz
+rm -r EasyRSA-3.0.4.tgz
 cd /etc/openvpn/easy-rsa
 
 if [[ ! -z $key_size ]]; then
